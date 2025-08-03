@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: monero-miner
+    env: node
+    buildCommand: npm install
+    startCommand: bash start.sh
+    plan: free
